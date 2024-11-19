@@ -1,0 +1,273 @@
+*{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.header{
+  width: 100%;
+  background-color: rgb(172, 172, 172);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;  
+}
+.container-fluid{
+  margin-left: 6%;
+}
+.collapsz{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 4px;
+}
+.collapsz li{
+  margin-right: 10px;
+  font-weight: bold;
+}
+.nav-item:hover{
+  background-color: #f87c24;
+  border-radius: 7px;
+}
+.imack{
+  position: relative;
+  width: auto;
+}
+.txt{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 57%;
+  right: 30%;
+}
+.txt h1{
+  color: white;
+  font-size: 40px;
+}
+
+button{
+  padding:10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: #f87c24;
+  margin: 20px;
+}
+button:hover{
+  background-color: white;
+  color: #f87c24;
+}
+
+.grad-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.grad{
+  padding: 15px;
+  margin: 15px;
+}
+.grad p{
+  color: rgb(138, 138, 138);
+  font-size: 19px;
+}
+h1{
+  color: #f87c24;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+.mage img{
+  border-radius: 15px;
+}
+.set{
+  background-color: #fff4ec;
+}
+.set h1{
+  text-align: center;
+}
+.green{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+.card-header{
+  background-color: #88c444;
+  font-weight: bold;
+}
+.card-body{
+  border: 3px solid #88c444;
+}
+.card-text1{
+  color: rgb(138, 138, 138);
+}
+.changes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8f4f4;
+  padding: 40px;
+
+}
+.changes-see h1{
+  color: #88c444;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+.changes-see p{
+  color: rgb(138, 138, 138);
+  font-size: 19px;
+}
+.wewe h1{
+  text-align: center;
+  color: #88c444;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.col i{
+  color: #88c444;
+  font-size: 27px;
+  padding-left: 37%;
+} 
+.col a{
+  color: #88c444;
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 2%;
+}
+.col p{
+  color: rgb(138, 138, 138);
+  font-size: 19px;
+}
+.why{
+  background-color: #f8fcec;
+  text-align: center;
+}
+.why h1{
+  margin-top: 3%;
+  text-align: center;
+  color: #88c444;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+.carousel-item p{
+  color: rgb(138, 138, 138);
+  font-size: 19px;
+}
+.carousel-control-prev{
+  background-color: transparent;
+}
+.carousel-control-prev:hover{
+  background-color: transparent;
+}
+.carousel-control-next{
+  background-color: transparent;
+}
+.carousel-control-next:hover{
+  background-color: transparent;
+}
+button i{
+  color: #f87c24;
+  cursor: pointer;
+  font-size: 25px;
+}
+button i:hover{
+  color: #88c444;
+}
+.team h1{
+  text-align: center;
+}
+.eam{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 35px;
+  padding: 20px;
+}
+.card{
+  border: none;
+}
+.card-img-top{
+  border-radius: 30px;
+}
+.card-body{
+  border: none;
+}
+.card-title{
+  font-weight: bold;
+}
+.card-text2{
+  color: #f87c24;
+}
+table{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+input{
+  margin-left: 20px;
+  height: 30px;
+}
+#con{
+  color: #f87c24;
+  padding: 20px;
+  font-size: 30px;
+}
+.us{
+  background-color: #fff4ec;
+
+}
+.us h1{
+  text-align: center;
+  color: #f87c24;
+}
+.sus{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sus-pee{
+  margin: 30px;
+  padding: 30px;
+}
+h2{
+  margin-left: 15px;
+}
+.sus-tee{
+  margin: 30px;
+  padding: 30px;
+}
+.sus-sio{
+  background-color: #88c444;
+  padding: 20px;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f87c24;
+  padding: 30px;
+  color: white;
+}
+#pus{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color:black;
+  z-index: 4;
+  font-size: 40px;
+  border-radius: 50%;
+  margin: 15px;
+  padding: 10px;
+  background-color: #88c444;
+  cursor: pointer;
+}
+#pus:hover{
+  color: #88c444;
+  background-color: black;
+}
